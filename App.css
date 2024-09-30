@@ -1,0 +1,75 @@
+/* App.css */
+
+/* Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black; /* Black background */
+    color: white; /* White text color */
+  }
+  
+  /* Main container styling */
+  .Mainbody {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background-color: #333; /* Dark gray background for the container */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+  }
+  
+  /* Input field container */
+  .infobox{
+    margin-bottom: 20px;
+  }
+
+  /* Input field styling */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px 10px 10px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background-color: #555; 
+    color: white;
+  }
+  
+  /* Button styling */
+  button {
+    /* background-color: #4CAF50; Green background */
+    /* color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* Links styling */
+  a {
+    color: #00aaff; /* Light blue for the links */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Additional margin for the links */
+  p {
+    margin: 20px 0;
+  }
+  
